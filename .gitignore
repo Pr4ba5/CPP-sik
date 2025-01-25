@@ -1,0 +1,16 @@
+```gitignore
+# Ignore compiled executables
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore backup files
+*~
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Visual Studio Code settings (optional)
+.vscode/
