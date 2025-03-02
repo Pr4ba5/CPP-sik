@@ -1,26 +1,28 @@
 #include <iostream>
 #include <queue>
 
+using namespace std;
+
 int main() {
-    std::queue<int> q;
+    queue<int> q;
 
     // Enqueue elements
     q.push(10);
     q.push(20);
     q.push(30);
 
-    std::cout << "Front element: " << q.front() << std::endl;
-    std::cout << "Back element: " << q.back() << std::endl;
+    cout << "Front element: " << q.front() << endl;
+    cout << "Back element: " << q.back() << endl;
 
     // Dequeue elements
     q.pop();
-    std::cout << "After popping, front element: " << q.front() << std::endl;
+    cout << "After popping, front element: " << q.front() << endl;
 
     // Check if queue is empty
     if (q.empty()) {
-        std::cout << "Queue is empty\n";
+        cout << "Queue is empty\n";
     } else {
-        std::cout << "Queue is not empty\n";
+        cout << "Queue is not empty\n";
     }
 
     return 0;
